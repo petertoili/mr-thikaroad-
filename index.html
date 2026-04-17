@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mr ThikaRoad Blog</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: black;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(90deg, orange, blue);
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 32px;
+    }
+
+    nav {
+      background: #222;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+    }
+
+    .container {
+      width: 90%;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .about, .blog, .contact {
+      background: white;
+      padding: 20px;
+      margin-top: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .photos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .photos img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      background: grey;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      margin-top: 20px;
+      background: black;
+      color: white;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 15px;
+      background: yellow;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Mr ThikaRoad Blog</h1>
+  <p>Marketing & Advertising Platform</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#blog">Blog</a>
+  <a href="#photos">Photos</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>Name: Peter Toili</p>
+    <p>Welcome to Mr ThikaRoad Blog where we share marketing, advertising ideas and business growth tips.</p>
+  </section>
+
+  <section id="blog" class="blog">
+    <h2>Latest Posts</h2>
+    <p>🚀 Tips on how to grow your business online</p>
+    <p>📢 How to create strong advertising campaigns</p>
+    <p>💡 Marketing strategies for beginners</p>
+  </section>
+
+  <section id="photos" class="about">
+    <h2>My Photos</h2>
+    <div class="photos">
+      <img src="https://via.placeholder.com/300" alt="Photo 1">
+      <img src="https://via.placeholder.com/300" alt="Photo 2">
+      <img src="https://via.placeholder.com/300" alt="Photo 3">
+      <img src="https://via.placeholder.com/300" alt="Photo 4">
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>Phone: 0705216966</p>
+    <p>Email: kimtrupking2@gmail.com</p>
+    <a class="btn" href="mailto:kimtrupking2@gmail.com">Send Email</a>
+  </section>
+
+</div>
+
+<footer>
+  <p>&copy; 2026 Mr ThikaRoad Blog. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
